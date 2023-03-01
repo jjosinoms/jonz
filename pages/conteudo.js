@@ -5,8 +5,9 @@ export default function Menu() {
             <div style={{ backgroundPositionY: 'center', backgroundImage: "url('https://i.ibb.co/60RPqYf/Jonas-Preto-EBranco2.png')",backgroundSize:'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
                 <div style={{ margin: '52%' }}></div>
             </div>
+            <hr style={{color: 'white'}}></hr>
             {/* Serviços */}
-            <div className="row" >
+            <div id='servicos' className="row" >
                 <h1 style={{ color: 'white;', textAlign: 'center', marginTop: '3%' }}>SERVIÇOS</h1>
             </div>
             <div className="row" >
@@ -50,10 +51,14 @@ export default function Menu() {
             <div className="row" >
                 <h1 style={{ color: 'white;', textAlign: 'center', marginTop: '3%' }}>PROJETOS</h1>
             </div>
+            <hr style={{color: 'white'}}></hr>
             {/* Carousel - Projetos */}
+            <div className="row" id='projetos'>
 
+            </div>
+            <hr style={{color: 'white'}}></hr>
             {/* Sobre */}
-            <div className="row">
+            <div id='sobre' className="row">
                 <div className="col-md-12">
                     <div class="card" style={{ margin: '5%' }}>
                         <div class="card-header">
@@ -67,26 +72,27 @@ export default function Menu() {
                                 Possuo inglês intermediário e aproximadamente 4 anos de experiência que tive nas empresas pelas quais passei:
                                 Desenvolvimento de sistemas, Service Desk e manutenção de sistemas legados.
                             </p>
-                            <a href="https://github.com/jjosinoms" class="btn btn-primary" style={{ margin: '1%' }}>Github</a>
-                            <a href="https://www.linkedin.com/in/jonas-josino-b5064257/" class="btn btn-primary" style={{ margin: '1%' }}>Linkedin</a>
-                            <a href="https://www.instagram.com/jonasjosino/" class="btn btn-primary" style={{ margin: '1%' }}>Instagram</a>
-                            <a href="https://www.facebook.com/jonasjosino89" class="btn btn-primary" style={{ margin: '1%' }}>Facebook</a>
+
                         </div>
                     </div>
                 </div>
             </div>
+            <hr style={{color: 'white'}}></hr>
             {/* Contato */}
-            <div className="row">
+            <div id='contato' className="row">
                 <div className="col-md-12">
                     <div class="card" style={{ height: '20rem;', margin: '5%' }}>
                         <div class="card-header">
                             CONTATO
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">CONTATO</h5>
+                            <h5 class="card-title">CONTATO</h5><br></br>
                             <p class="card-text">Telefone:(21)98630-0507</p>
-                            <p class="card-text">E-Mail: jjosinoms@gmail.com</p>
-                            <a href="https://www.linkedin.com/in/jonas-josino-b5064257/" class="btn btn-primary">Linkedin</a>
+                            <p class="card-text">E-Mail: jjosinoms@gmail.com</p><br></br>
+                            <a href="https://github.com/jjosinoms" class="btn btn-primary" style={{ margin: '1%' }}>Github</a>
+                            <a href="https://www.linkedin.com/in/jonas-josino-b5064257/" class="btn btn-primary" style={{ margin: '1%' }}>Linkedin</a>
+                            <a href="https://www.instagram.com/jonasjosino/" class="btn btn-primary" style={{ margin: '1%' }}>Instagram</a>
+                            <a href="https://www.facebook.com/jonasjosino89" class="btn btn-primary" style={{ margin: '1%' }}>Facebook</a>
                         </div>
                     </div>
                 </div>
@@ -100,6 +106,8 @@ export default function Menu() {
             {/* <a href="https://imgbb.com/">
                 <img src="https://i.ibb.co/VqFLW8t/Jonas-Preto-EBranco.png" alt="Jonas-Preto-EBranco" border="0" />
             </a> */}
+
+            <hr style={{color: 'white'}}></hr>
         </>
     )
 }

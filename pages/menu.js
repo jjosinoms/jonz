@@ -2,7 +2,7 @@ export default function Menu() {
     return (
         <>
 
-            <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong" style={{ marginBottom: '3%' }} >
+            <nav id='primeiraParte' class="navbar navbar-expand-lg navbar-dark shadow-5-strong" style={{ marginBottom: '3%' }} >
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#" style={{marginLeft: '42%',}}>	&#128526;- Jonas Monteiro - &#128516;  </a>
                     <button
