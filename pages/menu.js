@@ -2,9 +2,9 @@ export default function Menu() {
     return (
         <>
 
-            <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong" style={{ marginLeft: '40%', marginBottom: '3%' }} >
+            <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong" style={{ marginBottom: '3%' }} >
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">	&#128526;- Jonas Monteiro - &#128516;  </a>
+                    <a class="navbar-brand" href="#" style={{marginLeft: '42%',}}>	&#128526;- Jonas Monteiro - &#128516;  </a>
                     <button
                         class="navbar-toggler"
                         type="button"
