@@ -1,0 +1,27 @@
+{
+  "name": "jonz2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjosinoms/jonz2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjosinoms/jonz2023/issues"
+  },
+  "homepage": "https://github.com/jjosinoms/jonz2023#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "next": "^13.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
