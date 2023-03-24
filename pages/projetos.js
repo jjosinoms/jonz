@@ -9,7 +9,7 @@ export default function Projetos() {
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-3 d-flex align-items-stretch">
                                     <div class="card">
                                         <div class="card-header">
                                             API de Produtos
@@ -21,7 +21,7 @@ export default function Projetos() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-3 d-flex align-items-stretch">
                                     <div class="card">
                                         <div class="card-header">
                                             API de Usuários
@@ -33,7 +33,7 @@ export default function Projetos() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-3 d-flex align-items-stretch">
                                     <div class="card">
                                         <div class="card-header">
                                             Frontend
