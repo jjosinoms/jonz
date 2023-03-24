@@ -2,6 +2,7 @@ import Bootstrap from "./bootstrap/bootstrap"
 import Menu from "./menu"
 import Rodape from "./rodape"
 import Conteudo from "./conteudo"
+import ScriptBlip from "./script"
 
 export default function Index() {
     return (
@@ -13,9 +14,12 @@ export default function Index() {
                         <Menu />
                         <Conteudo />
                         <Rodape />
+                        <ScriptBlip/>
+                        
                     </div>
                 </div>
             </div>
+            
         </>
     )
 }

@@ -7,33 +7,35 @@ import Sobre from "./sobre";
 export default function Menu() {
     return (
         <>
-
-            <div style={{ backgroundPositionY: 'center', backgroundImage: "url('https://i.ibb.co/60RPqYf/Jonas-Preto-EBranco2.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
-                <div style={{ margin: '52%' }}></div>
+            <div className="col-md-3"></div>
+            <div className="col-md-6" style={{ borderStyle:'groove',  backgroundPositionY: 'center', backgroundImage: "url('https://uploaddeimagens.com.br/images/004/406/071/full/eu.jpeg?1679686957')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+            <div style={{ margin: '100%' }}></div>
             </div>
+
+            <div className="col-md-3"></div>
             <hr style={{ color: 'white' }}></hr>
 
             {/* Serviços */}
 
-            <Servicos/>
-            
-       
+            <Servicos />
+
+
             {/* PROJETOS */}
 
             <Projetos />
 
-       
+
             {/* Carousel - Projetos */}
 
 
 
             {/* Sobre */}
 
-            <Sobre/> 
+            <Sobre />
 
             {/* Contato */}
 
-            <Contato/>
+            <Contato />
 
             {/* <a href="https://imgbb.com/">
                 <img src="https://i.ibb.co/60RPqYf/Jonas-Preto-EBranco2.png" alt="Jonas-Preto-EBranco2" border="0" />
